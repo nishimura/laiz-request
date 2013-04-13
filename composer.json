@@ -1,0 +1,18 @@
+{
+  "name": "laiz/laiz-request",
+  "description": "Utility for zend-http and zend-uri",
+  "keywords": ["request"],
+  "license": "MIT",
+  "authors": [{
+    "name": "Satoshi Nishimura",
+    "email": "nishim314@gmail.com"
+  }],
+  "autoload": {
+    "psr-0": { "Laiz\\Request\\": "src/" }
+  },
+  "require": {
+    "php": ">=5.3.3",
+    "zendframework/zend-uri": "2.1.*",
+    "zendframework/zend-http": "2.1.*"
+  }
+}
